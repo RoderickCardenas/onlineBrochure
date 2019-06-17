@@ -1,0 +1,141 @@
+.container {
+    max-width: 1085px;
+    margin: 0 auto;
+    background-color: background color here;
+}
+.column {
+    column-count: 2;
+}
+
+.header-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    align-content: center;
+}
+.main-header {
+    margin-top: 60px;
+    margin-bottom:40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-header-text {
+    background-color: header color here
+    font-size: 35px;
+    line-height: 42px;
+}
+
+.main-header-sub {
+    font-size: 18px;   
+    background-color: header color here
+    line-height: 27px;
+}
+
+.boxOne {
+    float: left;
+    display: inline-table;
+    border-radius: 25px;
+}
+
+.imageOne{
+    float: left;
+    margin: 30px 20px 30px 25px;
+    width: 140px;
+    height: 140px;
+    display: inline-table;
+}
+
+.boxOne-main-header {
+    margin-left: 184px;
+    margin-right: 25px;
+    line-height: 27px;
+    font-size: 20px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.boxOne-sub-header {
+    margin-left: 184px;
+    margin-right: 25px;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxTwo {
+    float: right;
+    display: inline-table;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+
+
+.boxOne-next-line {
+    float: left;
+    margin-top: 30px;
+    display: inline-table;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+
+
+.boxTwo-next-line {
+    float: right;
+    margin-top: 30px;
+    display: inline-table;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+
+.boxOne-last-line {
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: inline-table;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+
+
+.boxTwo-last-line {
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: inline-table;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+
+
+.imageTwo {
+    float: left;
+    margin: 30px 20px 30px 25px;
+    width: 140px;
+    position: relative;
+    display: inline-table;
+}
+.boxTwo-main-header {
+    margin-left: 20px;
+    margin-right: 25px;
+    line-height: 27px;
+    font-size: 20px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxTwo-sub-header {
+    font-size: 18px;
+    margin-right: 25px;
+    line-height: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media (max-width: 500px) {
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+        background-color: #f5f6fa;
+    }
+    
+  }
